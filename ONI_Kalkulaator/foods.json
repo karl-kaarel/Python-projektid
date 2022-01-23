@@ -1,0 +1,254 @@
+{
+    "mealwood":[
+        {
+            "cycle":3,
+            "quantity":1,
+            "calories":600,
+            "cook":[
+                {
+                    "pickled meal":[
+                        {
+                            "calories":1800,
+                            "required":1800
+                        }
+                    ],
+                    "liceloaf":[
+                        {
+                            "calories":1700,
+                            "required":[
+                                {
+                                    "meal lice":1200,
+                                    "water":50
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "dusk cap":[
+        {
+            "cycle":7.5,
+            "quantity":1,
+            "calories":2400,
+            "cook":[
+                {
+                    "fried mushroom":[
+                        {
+                            "calories":2800,
+                            "required":2500
+                        }
+                    ],
+                    "mushroom wrap":[
+                        {
+                            "calories":4800,
+                            "required":[
+                                {
+                                    "fried mushroom":2800,
+                                    "leduce":1600
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "bristle blossom":[
+        {
+            "cycle":6,
+            "quantity":1,
+            "calories":1600,
+            "cook":[
+                {
+                    "gristle berry":[
+                        {
+                            "calories":2000,
+                            "required":1600
+                        }
+                    ],
+                    "berry sludge":[
+                        {
+                            "calories":4000,
+                            "required":[
+                                {
+                                    "sleet wheat": 5,
+                                    "bristle berry": 1600
+                                }
+                            ]
+                        }
+                    ],
+                    "stuffed berry":[
+                        {
+                            "calories":4400,
+                            "required":[
+                                {
+                                    "gristle berry":4000,
+                                    "pincha peppernut":2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "sleet wheat":[
+        {
+            "cycle":18,
+            "quantity":18,
+            "cook":[
+                {
+                    "frost bun":[
+                        {
+                            "calories":1200,
+                            "required":3
+                        }
+                    ],
+                    "peppered bread":[
+                        {
+                            "calories":4000,
+                            "required":[
+                                {
+                                   "sleet wheat":10,
+                                   "pincha peppernut":1 
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "waterweed":[
+        {
+            "cycle":12,
+            "calories":400,
+            "quantity":12,
+            "cook":[
+                {
+                    "frost burger":[
+                        {
+                            "calories":6000,
+                            "required":[
+                                {
+                                    "frost bun":1200,
+                                    "lettuce":400,
+                                    "barbeque":4000,
+                                    "meat":3200
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "nosh sprout":[
+        {
+            "cycle":21,
+            "quantity":12,
+            "cook":[
+                {
+                    "tofu":[
+                        {
+                            "calories":3600,
+                            "required":[
+                                {
+                                    "nosh bean":6,
+                                    "water":50
+                                }
+                            ]
+                        }
+                    ],
+                    "spicy tofu":[
+                        {
+                            "calories":4000,
+                            "required":[
+                                {
+                                    "tofu":3600,
+                                    "pincha peppernut":1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "pincha pepper":[
+        {
+            "cycle":8,
+            "quantity":4
+        }
+    ],
+    "bog bucket":[
+        {
+            "cycle":6.6,
+            "quantity":1,
+            "calories":1840,
+            "cook":[
+                {
+                    "swampy delights":[
+                        {
+                            "calories":2240,
+                            "required":1840
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "grubfruit":[
+        {
+            "cycle":8,
+            "quantity":8,
+            "calories":250,
+            "cook":[
+                {
+                    "grubfruit preserve":[
+                        {
+                            "calories":2400,
+                            "required":[
+                                {
+                                    "grubfruit":2000,
+                                    "sucrose":4000
+                                }
+                            ]
+                        }
+                    ],
+                    "mixed berry pie":[
+                        {
+                            "calories":4200,
+                            "required":[
+                                {
+                                    "sleet wheat": 3,
+                                    "grubfruit": 1000,
+                                    "gristle berry":2000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "spindly grubfruit":[
+        {
+            "cycle":8,
+            "quantity":1,
+            "calories":800,
+            "cook":[
+                {
+                    "roasted grubfruit nut":[
+                        {
+                            "calories":1200,
+                            "required":800
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
